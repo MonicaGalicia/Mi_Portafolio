@@ -1,0 +1,92 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+#flatness{
+	width:50%;
+	height:100%;
+	
+}
+.bg-purple{
+	background-color:#1B0A2A;
+	
+}
+
+li{
+	display:inline-block;
+	color:white;
+	margin:2%;
+}
+
+#bg-purple2{
+   background-color:#1a001a;
+   height:100%;
+
+}
+
+.fondosec1{
+	background-image:url("../image/header-image.jpg");
+	width:100%;
+	height:500px; 
+	background-size:cover;
+	margin-top:3%;
+}
+
+#black{
+	width:50%;
+	height:100%;
+	background-color:black;
+	margin-top:15%;
+	margin-left:25%;
+	padding-top:1%;
+
+
+}
+
+.imgsec2{
+	width:100%;
+	
+}
+
+h1{
+	font-size:4em;
+
+
+}
+
+#bg-gris{
+	width:100%;
+	height:330px;
+	background-color: #0d0d0d;
+	margin-top:30px;
+}
+
+.text-orange{
+	color:#F7DC6F;
+}
+
+.text-white{
+	color:white;
+}
+
+.cour{
+	font-family: 'Courgette', cursive;
+}
+
+.life{
+	display:inline-block;
+   	margin:8% 0% 10% 3%;
+
+}
+
+.left{
+	margin-left:30%;
+}

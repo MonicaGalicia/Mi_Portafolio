@@ -1,0 +1,94 @@
+*{
+	font-family:Latolight;
+}
+
+.center{
+	text-align:center;
+}
+
+
+/*header*/
+li{
+	list-style:none;
+	display:inline-block;
+	margin-left:100px;
+	text-align:center;
+	color:grey;
+}
+
+h1{
+	margin:25px 0px;
+
+}
+
+#linosotros{
+	margin-left:30px;
+}
+/*header*/
+
+/*seccion formulario*/
+#zapatilla{
+	float:right;
+	width:600px;
+	height:440px; 
+}
+
+form{
+	margin:50px 0px 0px 35px;
+	width:450px;
+	height:40px;
+}
+
+input, textarea{
+	margin-top:12px;
+	width:400px;
+	height:40px;
+
+}
+
+textarea{
+	min-height:100px;
+	max-height:300px;
+	max-width:450px;
+}
+
+#contacto{
+	margin-left:50px;
+	color:#192951;
+}
+
+#botonformulario:hover{
+	cursor:pointer;
+}
+
+button:hover{
+	cursor:pointer;
+}
+
+/*seccion formulario*/
+
+/*seccion footer*/
+
+#footer{
+	width:1050;
+	height:50px; 
+}
+
+#pfooter{
+	font-size:12px;
+	margin:20px;
+}
+
+.bg-blue{
+	background-color:#192951;
+	border:#192951;
+}
+
+/*seccion footer*/
+
+.poema{     /*corresponde a la seccion de la frase*/
+	font-size:25px;
+	font-family:sans-serif;
+	margin:100px;
+}
+

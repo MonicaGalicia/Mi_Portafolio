@@ -1,0 +1,398 @@
+/*clases generales*/
+.text-white{
+	color:white;
+}
+
+.mg-left{
+   margin-left:6%;
+}
+
+.mg-left17{
+	margin-left:17%;
+}
+
+.border-radius{
+	border-radius:5%;
+}
+
+.centrar{
+	margin:auto;
+	display:block;
+}
+
+.bg-white{
+	background-color:white;
+}
+
+.mg-bottom{
+	margin-bottom:5%;
+}
+
+input{
+	border-radius:2%;
+	border-style:none;
+}
+hr{
+	border-color:black;
+	width:20%;
+}
+.hr-white{
+	border-color:white;
+	width:12%;
+}
+
+.mg-top{
+	margin-top:5%;
+}
+/*termina*/
+
+/*sección navegador*/
+
+nav.navbar{
+	background-color:#0A7F51;
+    padding:2% 2%;
+    width:100%;
+    margin: 0% !important;
+
+}
+.logo{ /*logo al inicio de la página , encabezado*/
+	margin-left:15%
+}
+
+#navegacion{
+	float:right;
+}
+
+body {
+    overflow-x: hidden;
+}
+.bg-header{
+	background-image:url("../img/carousel-bg.jpg");
+    height:500px;
+}
+
+.jumbotron{
+	background-color:transparent;
+	color:white;
+}
+
+/*sección navegador*/
+
+/*sección paleta de colores*/
+.colorheight{   /*altura  cajas color selector*/
+	height:120px;
+	margin-bottom:1%;
+}
+
+.colorheight:hover{
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+#color-hexa1{
+	background-color:#69D2E7;
+}
+#color-hexa2{
+	background-color:#A7DBDB;
+}
+#color-hexa3{
+	background-color:#E0E4CC;
+}
+#color-hexa4{
+	background-color:#F38630;
+}
+
+#color-hexa5{
+	background-color:#FA6900;
+}
+#color-hexa6{
+	background-color:#DC403B;
+}
+
+#color-hexa7{
+	background-color:#E94C6F;
+}
+#color-hexa8{
+	background-color:#542733;
+}
+#color-hexa9{
+	background-color:#5A6A62;
+}
+#color-hexa10{
+	background-color:#C6D5CD;
+}
+#color-hexa11{
+	background-color:#FDF200;
+}
+#color-hexa12{
+	background-color:#DB3340;
+}
+#color-hexa13{
+	background-color:#e8b71a;
+}
+#color-hexa14{
+	background-color:#F7EAC8;
+}
+#color-hexa15{
+	background-color:#1FDA9A;
+}
+#color-hexa16{
+	background-color:#28ABE3;
+}
+#color-hexa17{
+	background-color:#588C73;
+}
+#color-hexa18{
+	background-color:#F2E394;
+}
+#color-hexa19{
+	background-color:#F2AE72;
+}
+#color-hexa20{
+	background-color:#D96459;
+}
+#color-hexa21{
+	background-color:#8C4646;
+}
+#color-hexa22{
+	background-color:#D0C91F;
+}
+#color-hexa23{
+	background-color:#85C4B9;
+}
+#color-hexa24{
+	background-color:#0088BA;
+}
+#color-hexa25{
+	background-color:#DF514C;
+}
+
+/*termina paleta de colores*/
+
+.bg-about{
+	background-color:#273f4d;
+   
+}
+
+.font-title{  /*sección about*/
+	font-size:3em;
+}
+
+
+/*progress bar*/
+#img-about{
+	width:70%;
+	height:300px;
+	
+}
+
+.progress{
+	width:60%;
+	height:10px;
+}
+
+#baruno{
+	width: 95%;
+}
+
+#bardos{
+	width: 85%;
+}
+
+#bartres{
+	width:60%;
+}
+
+#barcuatro{
+	width:75%;
+}
+
+#barcinco{
+	width:82%;
+}
+/* termina progress bar*/
+
+/*sección what we do*/
+
+.div-icono{ 
+	width:50%;
+	padding:2%;
+}
+
+
+.div-icono:hover{
+ 
+ 	background-color: #0F454C;
+}
+ 
+.rot{
+   background: linear-gradient(90deg, 
+    #6a7580 50%,  #2C3E50 50%);
+	width:110px;
+	height:110px;
+}
+
+.rot:hover{
+	-webkit-transform: rotate(20deg);
+}
+
+.hover-titulo:hover{ 
+	color:#CE642F;
+
+}
+
+.hr-dashed{
+	border:#393a37 dashed 0.2px;
+	width:80%;
+}
+
+.icon-rsocial:hover{
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*sección tablas plan de pago*/
+
+.tabla{
+	list-style:none;
+	margin-top:3%;
+	text-align: center;
+}
+
+.bg-white{
+	background-color:white;
+}
+
+.border-green{
+	margin:auto;
+	display:center;
+    width: 260px;
+    border-radius: 6px;
+    border:solid green;
+}
+
+.border-green:hover{
+	border:solid orange;
+}
+
+.green{
+	background-color:green;
+	line-height:40px;
+	list-style:none;
+	text-align: center;
+}
+
+
+.signup{
+	border-style:none;
+	border-radius:5%;
+	margin:auto;
+	display:block;
+	background-color: green;
+
+}
+
+/*formulario*/
+.block{
+	display:block;
+	width:40%;
+	margin-bottom:1%;
+	height:30px;
+}
+
+#basic-addon1{
+	color:orange;
+}
+ 
+ .redesoci{
+	margin-top:13%;
+	margin-left:9%;
+	width:80px;
+}
+
+.bg-espiga{
+	background-image:url("../img/img-divider-img.jpg");
+height:400px;
+
+}
+
+.bg-green{
+	background-color:#42926b;
+    padding-bottom:2%;
+}
+
+button{
+	background-color: #3b3b37;
+	border-color:#3b3b37;
+	color:text-white;
+margin:2% 0%;
+}
+
+
+
+
+
+.text-orange{
+	color:orange;
+}
+
+
+
+
+.height{
+   height:200px;
+}
+
+
+#grey{
+	color:#3b3b37;
+}
+
+@media screen and (max-width: 600px) {
+  .font-title{
+	font-size:2.3em;
+}
+ .redesoci{
+ 	widows: 7px;0px;
+ 	margin-left:15%;
+ }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

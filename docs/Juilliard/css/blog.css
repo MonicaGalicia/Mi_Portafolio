@@ -1,0 +1,50 @@
+
+img{
+	width:320px;
+	height:220px;
+	margin-left:130px;
+	margin-top:30px;
+}
+
+#fondo1{
+	width:100%;
+	height:850px;
+	margin:40px 0px;
+}
+
+h2{
+	margin-top:30px;
+}
+
+.fondoimgblog{
+	height:220px;
+	width:780px;
+	background-color:grey;
+	margin-left:0px;
+	margin-top:30px;
+	
+}
+
+h4,h5,p{
+	margin-left:15px;
+
+}
+
+h5{
+	color:rgb(244, 244, 244);
+}
+
+h4{
+	margin:10px;
+}
+
+button{
+	width:150px;
+	height:50px;
+	background-color:#192951;
+	border:#192951;
+	font-size:15px;
+	margin:auto;
+	display:block;
+	margin:15px;
+}

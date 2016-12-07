@@ -1,0 +1,51 @@
+#fondo1{ 
+background-image:url("../img/dance_7.jpg");
+background-size:100%;
+height:500px;
+margin-top:25px;
+background-repeat:no-repeat;
+}
+
+.bg-black{ /*fondo opacity nosotros*/
+	background-color:black;
+	width:500px;
+	height:200px;
+	margin:auto;
+	opacity:0.4;
+	margin-top:150px;
+}
+
+.fondocubes{
+background-image:url("../img/cubes.png");
+height:300px;
+}
+
+hr{
+	width:300px;
+	color:grey;
+	margin:auto;
+}
+
+.margin{
+	margin:20px;
+}
+
+.margin40{
+	margin:40px;
+}
+
+.marginbutton{
+	margin-bottom:40px;
+}
+
+.sizeteach{
+	width:230px;
+	height:250px;
+	margin:10px 0px;
+	
+}
+
+
+
+
+
