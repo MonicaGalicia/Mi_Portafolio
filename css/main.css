@@ -284,6 +284,7 @@ h4 {
     font-size: 16px;
   }
 }
+
 @media (min-width:320px) and (max-width:568px) {
   #pic {
     width: 35%;
@@ -448,6 +449,32 @@ h4 {
     left: 80%;
     margin-left: -90px;
   }
+}
+
+@media (min-width:408px) and (max-width:694px) {
+  .bg-proyecto {
+    height: 1000px !important;
+  }
+
+
+
+
+}
+
+@media (min-width:612px) and (max-width:694px) {
+
+  .secDos {
+    height: 1000px !important;
+  }
+
+  .bg-proyecto {
+    height: 1200px !important;
+  }
+
+  .top {
+    margin-top: 20% !important;
+}
+
 }
 
 
