@@ -436,6 +436,76 @@ h4 {
 }
 
 
+/*media menu*/
+
+@media screen and (max-width: 600px) {
+  .nav {
+    position: relative;
+    min-height: 40px;
+  }
+  .nav ul {
+    width: 180px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: #F95759;
+    background: url("../img/list-menu.png") no-repeat 10px 11px;
+    border-radius: 5px;
+  }
+  .nav li {
+    display: none;
+    /* hide all <li> items */
+    margin: 0;
+  }
+  .nav .current {
+    display: block;
+    /* show only current <li> item */
+  }
+  .nav a {
+    display: block;
+    padding: 5px 35px 5px 40px;
+    text-align: left;
+  }
+  .nav .current a {
+    background: none;
+    color: transparent;
+  }
+  /* on nav hover */
+  .nav ul:hover {
+    background-color:#F95759;
+    /**/
+  }
+  .nav ul:hover li {
+    display: block;
+    margin: 0 0 5px;
+  }
+  .nav ul:hover .current {
+    background: url("../img/list-menu.png")no-repeat 10px 7px;
+  }
+  /* right nav */
+  .nav.right ul {
+    left: auto;
+    right: 0;
+  }
+  /* center nav */
+  .nav.center ul {
+    left: 80%;
+    margin-left: -90px;
+  }
+}
+
+@media (min-width:408px) and (max-width:694px) {
+  
+  /*
+  .bg-proyecto {
+    height: 1000px !important;
+  }
+  */
+
+}
+
+
 
 
 
